@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option go_package = "notification-proto/new_user_invite";
+
+message NewUserInvite {
+  string email = 1;
+  string uuid = 2;
+}
